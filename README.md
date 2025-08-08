@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 # Scroll-Issue
 
-[![Watch the video]](https://firebasestorage.googleapis.com/v0/b/sara-reality.appspot.com/o/WhatsApp%20Video%202025-08-05%20at%204.30.34%20PM.mp4?alt=media&token=730cca88-8885-4dcd-b25e-f5eb1917a011)
+[![Watch the video] [We want exact scroll behaviour]](https://firebasestorage.googleapis.com/v0/b/sara-reality.appspot.com/o/WhatsApp%20Video%202025-08-05%20at%204.30.34%20PM.mp4?alt=media&token=730cca88-8885-4dcd-b25e-f5eb1917a011)
