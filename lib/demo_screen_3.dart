@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
-class SliverTabScrollPage extends StatefulWidget {
-  const SliverTabScrollPage({Key? key}) : super(key: key);
+class DemoScreen3 extends StatefulWidget {
+  const DemoScreen3({super.key});
 
   @override
-  State<SliverTabScrollPage> createState() => _SliverTabScrollPageState();
+  State<DemoScreen3> createState() => _DemoScreen3State();
 }
 
-class _SliverTabScrollPageState extends State<SliverTabScrollPage>
+class _DemoScreen3State extends State<DemoScreen3>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
   final ItemScrollController _scrollController = ItemScrollController();

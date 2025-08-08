@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nested_scroll_tabbar/demo_screen_1.dart';
 import 'package:nested_scroll_tabbar/demo_screen_2.dart';
 import 'package:nested_scroll_tabbar/demo_screen_3.dart';
+import 'package:nested_scroll_tabbar/demo_screen_4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -93,12 +94,20 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                    builder: (context) => const SliverTabScrollPage(),
-                  ),
+                  MaterialPageRoute(builder: (context) => const DemoScreen3()),
                 );
               },
               child: Text("Demo Screen 3"),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const DemoScreen4()),
+                );
+              },
+              child: Text("Demo Screen 4"),
             ),
           ],
         ),
